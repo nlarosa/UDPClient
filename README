@@ -1,0 +1,28 @@
+
+Nicholas LaRosa
+CSE 30264, Program 1
+
+Files:
+
+udpclient.c
+
+	Source code for UDP client, written in C, compiled with the following command: 		gcc udpclient.c -o udpclient
+
+udpclient
+		
+	Executable version of the UDP client, used with the following command:			udpclient <IP_Address> OR <Host_Name> <Port_Number> <File_to_Send>
+
+File1.txt
+File2.txt
+File3.txt
+
+	Test files to be sent to the server at woodstock.cselab.nd.edu, IP address 129.74.170.64, port 9999
+
+Result1.txt
+Result2.txt
+Result3.txt
+
+	Result files from the corresponding test files
+	The results were retrieved from the server at woodstock.cselab.nd.edu, IP address 129.74.170.64, port 9999
+	The server successfully inverted the sent buffer and appended a timestamp
+
